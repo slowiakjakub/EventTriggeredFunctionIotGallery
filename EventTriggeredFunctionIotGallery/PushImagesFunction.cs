@@ -21,7 +21,7 @@ namespace EventTriggeredFunctionIotGallery
                 try
                 {
                     // Replace these two lines with your processing logic.
-                    log.LogInformation($"Hello Azure Functions! C# Event Hub trigger function processed a message: {eventData.EventBody}");
+                    log.LogInformation($"Code push trial!!! Event Hub trigger function processed a message: {eventData.EventBody}");
                     await Task.Yield();
                 }
                 catch (Exception e)
